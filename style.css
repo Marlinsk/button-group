@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.btn-group {
+  display: inline-flex;
+  border: 1px solid #373a40;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.button {
+  padding: 10px 16px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-right: 1px solid #373a40;
+  background: #ffff;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  margin: none;
+}
+
+.button:last-child {
+  border-right: none;
+}
+
+.button:hover {
+  background: #686d76;
+  color: #ffff;
+}
